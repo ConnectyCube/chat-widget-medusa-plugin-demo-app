@@ -1,0 +1,26 @@
+version: '3'
+services:
+  postgres:
+    image: postgres:${POSTGRES_VERSION:-15.3-alpine}
+    container_name: ${PROJECT_NAME:-marketplace-db}-postgres
+    environment:
+      POSTGRES_DB: ${POSTGRES_DB:-marketplace}
+      POSTGRES_USER: ${POSTGRES_USER:-marketplace}
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD:-super-secure-password}
+      PGDATA: '/var/lib/postgresql/data'
+      POSTGRES_INITDB_ARGS: '-E UTF8 --locale=C'
+    command: ['postgres', '-cshared_preload_libraries=pg_stat_statements']
+    ports:
+      - 5432:5432
+    volumes:
+      - marketplace-db-data:/var/lib/postgresql/data
+    networks:
+      - internal
+
+networks:
+  internal:
+    name: ${PROJECT_NAME:-marketplace}
+
+volumes:
+  marketplace-db-data:
+    name: ${POSTGRES_VOLUME_NAME:-marketplace-db-data}
