@@ -12,7 +12,7 @@ A demo Medusa 2.0 app with [@connectycube/chat-widget-medusa-plugin](https://git
 3. Run core medusa app
 
   ```
-  cp core-app
+  cd core-app
   yarn
   cp .env.template .env
   # set VITE_CHAT_APP_ID and VITE_CHAT_AUTH_KEY envs in .env file
@@ -24,7 +24,7 @@ A demo Medusa 2.0 app with [@connectycube/chat-widget-medusa-plugin](https://git
 4. Run storefront
 
   ```
-  cp storefront
+  cd storefront
   yarn
   cp .env.template .env.local
   # set NEXT_PUBLIC_CHAT_APP_ID, NEXT_PUBLIC_CHAT_AUTH_KEY, NEXT_PUBLIC_STORE_ID, NEXT_PUBLIC_STORE_NAME envs
