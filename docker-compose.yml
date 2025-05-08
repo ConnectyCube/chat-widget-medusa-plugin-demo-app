@@ -4,7 +4,7 @@ services:
     image: postgres:${POSTGRES_VERSION:-15.3-alpine}
     container_name: ${PROJECT_NAME:-marketplace-db}-postgres
     environment:
-      POSTGRES_DB: ${POSTGRES_DB:-marketplace}
+      POSTGRES_DB: ${POSTGRES_DB:-medusa-chat-widget-plugin}
       POSTGRES_USER: ${POSTGRES_USER:-marketplace}
       POSTGRES_PASSWORD: ${POSTGRES_PASSWORD:-super-secure-password}
       PGDATA: '/var/lib/postgresql/data'
