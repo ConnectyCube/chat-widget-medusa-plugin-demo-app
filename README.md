@@ -14,12 +14,25 @@ A demo Medusa 2.0 app with [@connectycube/chat-widget-medusa-plugin](https://git
   ```
   cd core-app
   yarn
+
   cp .env.template .env
   # set VITE_CHAT_APP_ID and VITE_CHAT_AUTH_KEY envs in .env file
+
   npx medusa db:setup --db medusa-chat-widget-plugin
   npx medusa db:migrate
+
+  # create test user
+  npx medusa user --email user@test.com --password testtest
+
   yarn dev
   ```
+
+  Now open http://localhost:9000/app and login with your test user.
+
+  For a storefront to configure you will need your Store Id and Store name. You can access them via Developers Tools, Network tab:
+
+<img width="1512" alt="Screenshot 2025-05-08 at 12 33 02" src="https://github.com/user-attachments/assets/abe629a9-20ca-475b-9358-c403f9558514" />
+
 
 4. Run storefront
 
