@@ -16,7 +16,7 @@ A demo Medusa 2.0 app with [@connectycube/chat-widget-medusa-plugin](https://git
   yarn
   cp .env.template .env
   # set VITE_CHAT_APP_ID and VITE_CHAT_AUTH_KEY envs in .env file
-  npx medusa db:setup --db medusa-chat-widget-medusa-plugin-demo-app
+  npx medusa db:setup --db medusa-chat-widget-plugin
   npx medusa db:migrate
   yarn dev
   ```
