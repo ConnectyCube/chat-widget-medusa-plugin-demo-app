@@ -39,10 +39,15 @@ A demo Medusa 2.0 app with [@connectycube/chat-widget-medusa-plugin](https://git
   ```
   cd storefront
   yarn
+
   cp .env.template .env.local
-  # set NEXT_PUBLIC_CHAT_APP_ID, NEXT_PUBLIC_CHAT_AUTH_KEY, NEXT_PUBLIC_STORE_ID, NEXT_PUBLIC_STORE_NAME envs
+  # Set NEXT_PUBLIC_CHAT_APP_ID, NEXT_PUBLIC_CHAT_AUTH_KEY, NEXT_PUBLIC_STORE_ID, NEXT_PUBLIC_STORE_NAME envs.
+  # Also, specify valid NEXT_PUBLIC_MEDUSA_PUBLISHABLE_KEY which you can get in Medusa Dashboard -> Settings -> Publishable API Keys
+
   yarn dev
   ```
+
+  Now open http://localhost:8000
 
 ## How can I use it?
 
