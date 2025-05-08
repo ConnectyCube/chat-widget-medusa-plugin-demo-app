@@ -1,2 +1,57 @@
-# chat-widget-medusa-plugin-demo-app
-A demo Medusa 2.0 app with ConnectyCube Chat Widget plugin integrated
+# Medusa 2.0 chat widget plugin - Demo app
+
+A demo Medusa 2.0 app with [@connectycube/chat-widget-medusa-plugin](https://github.com/ConnectyCube/chat-widget-medusa-plugin) integrated 
+
+## How to run 
+
+- Run the dependant services `docker compose up`
+- Run core medusa app
+
+  ```
+  cp core-app
+  yarn
+  cp .env.template .env
+  # set VITE_CHAT_APP_ID and VITE_CHAT_AUTH_KEY envs in .env file
+  npx medusa db:setup --db medusa-chat-widget-medusa-plugin-demo-app
+  npx medusa db:migrate
+  yarn dev
+  ```
+
+- Run storefront
+
+  ```
+  cp storefront
+  yarn
+  cp .env.template .env.local
+  # set NEXT_PUBLIC_CHAT_APP_ID, NEXT_PUBLIC_CHAT_AUTH_KEY, NEXT_PUBLIC_STORE_ID, NEXT_PUBLIC_STORE_NAME envs
+  yarn dev
+  ```
+
+## How can I use it?
+
+On storefront, once logged in and opened product page, there will be a Chat toggle button bottom right:
+
+<img width="1094" alt="Screenshot 2025-05-07 at 16 35 22" src="https://github.com/user-attachments/assets/af6acca9-6619-4d9f-b33a-ba9ccafcc03c" />
+
+Once clicked, a chat with seller will be opened where you can ask any product's related questions:
+
+<img width="1511" alt="Screenshot 2025-05-07 at 16 39 20" src="https://github.com/user-attachments/assets/17f613fc-0467-41f6-a333-c14d08d54f40" />
+
+From Medusa dashboard there will be a new page called Chat, with the widget embedded, where all customers' chats are displayed, so you as a merchant can reply:
+
+<img width="1509" alt="Screenshot 2025-05-07 at 16 38 13" src="https://github.com/user-attachments/assets/13cefe90-216b-46bb-94b3-ac754df4de74" />
+
+## Have an issue?
+
+Join our [Discord](https://discord.com/invite/zqbBWNCCFJ) for quick answers to your questions or [file a GitHub issue](https://github.com/ConnectyCube/chat-widget-medusa-plugin-demo-app/issues) 
+
+## Community
+
+- [Blog](https://connectycube.com/blog)
+- X (twitter)[@ConnectyCube](https://x.com/ConnectyCube)
+- [Facebook](https://www.facebook.com/ConnectyCube)
+
+## License
+
+MIT
+
