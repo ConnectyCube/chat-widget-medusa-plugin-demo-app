@@ -27,7 +27,9 @@ A demo Medusa 2.0 app with [@connectycube/chat-widget-medusa-plugin](https://git
   yarn dev
   ```
 
-  Now open http://localhost:9000/app and login with your test user. Navigate to `Extensions -> Chat` to open a chat page.
+  Now open http://localhost:9000/app and login with your test user. Navigate to `Extensions -> Chat` to open a chat page:
+
+  <img width="800" alt="Screenshot 2025-05-08 at 12 49 18" src="https://github.com/user-attachments/assets/9b9bb61e-7ca2-447a-8ccc-fb8cf92933f2" />
 
   For a storefront to configure you will need your Store Id and Store name. You can access them via Developers Tools, Network tab:
 
