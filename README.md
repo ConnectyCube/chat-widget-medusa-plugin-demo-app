@@ -33,6 +33,8 @@ A demo Medusa 2.0 app with [@connectycube/chat-widget-medusa-plugin](https://git
 
 <img width="1512" alt="Screenshot 2025-05-08 at 12 33 02" src="https://github.com/user-attachments/assets/abe629a9-20ca-475b-9358-c403f9558514" />
 
+  Also, you need to create Publishable API Key on `Settings -> Publishable API Keys` page and region on `Settings -> Regions` page.
+
 
 4. Run storefront
 
