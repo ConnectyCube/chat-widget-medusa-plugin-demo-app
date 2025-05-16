@@ -316,7 +316,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@babel/runtime@npm:^7.25.0, @babel/runtime@npm:^7.26.10":
+"@babel/runtime@npm:^7.25.0, @babel/runtime@npm:^7.27.1":
   version: 7.27.1
   resolution: "@babel/runtime@npm:7.27.1"
   checksum: 11339838a54783e5b14e04d94d7a4d032e9965c5823f3f687e41556fa40344ae7aeb57c535720b7a74ab3e8217def7834a6f1a665ee55bbb3befede141419913
@@ -359,39 +359,39 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@connectycube/chat-widget@npm:^0.25.0":
-  version: 0.25.0
-  resolution: "@connectycube/chat-widget@npm:0.25.0"
+"@connectycube/chat-widget@npm:^0.26.0":
+  version: 0.26.0
+  resolution: "@connectycube/chat-widget@npm:0.26.0"
   dependencies:
     "@connectycube/use-chat": ^0.23.0
-    "@radix-ui/react-alert-dialog": ^1.1.11
-    "@radix-ui/react-avatar": ^1.1.7
-    "@radix-ui/react-dialog": ^1.1.11
-    "@radix-ui/react-dropdown-menu": ^2.1.12
-    "@radix-ui/react-label": ^2.1.4
-    "@radix-ui/react-slot": ^1.2.0
-    "@radix-ui/react-switch": ^1.2.2
-    "@radix-ui/react-tabs": ^1.1.9
-    "@radix-ui/react-tooltip": ^1.2.4
-    "@rollup/rollup-linux-x64-gnu": 4.40.1
+    "@radix-ui/react-alert-dialog": ^1.1.13
+    "@radix-ui/react-avatar": ^1.1.9
+    "@radix-ui/react-dialog": ^1.1.13
+    "@radix-ui/react-dropdown-menu": ^2.1.14
+    "@radix-ui/react-label": ^2.1.6
+    "@radix-ui/react-slot": ^1.2.2
+    "@radix-ui/react-switch": ^1.2.4
+    "@radix-ui/react-tabs": ^1.1.11
+    "@radix-ui/react-tooltip": ^1.2.6
+    "@rollup/rollup-linux-x64-gnu": 4.40.2
     "@tailwindcss/oxide-linux-x64-gnu": ^4.1.5
     class-variance-authority: ^0.7.1
     clsx: ^2.1.1
     connectycube: ^4.3.0
     get-browser-fingerprint: ^4.1.0
-    i18next: ^25.0.2
+    i18next: ^25.1.2
     jsdom: ^26.1.0
     lightningcss-linux-x64-gnu: ^1.29.3
-    linkify-react: ^4.2.0
-    linkifyjs: ^4.2.0
-    lucide-react: ^0.503.0
+    linkify-react: ^4.3.1
+    linkifyjs: ^4.3.1
+    lucide-react: ^0.506.0
     next-themes: ^0.4.6
-    react-hook-form: ^7.56.1
+    react-hook-form: ^7.56.3
     react-i18next: ^15.5.1
     react-icons: ^5.5.0
     react-intersection-observer: ^9.16.0
     react-player: ^2.16.0
-    zustand: ^5.0.3
+    zustand: ^5.0.4
   peerDependencies:
     react: ^18 || ^19
     react-dom: ^18 || ^19
@@ -402,7 +402,7 @@ __metadata:
       optional: true
     lightningcss-linux-x64-gnu:
       optional: true
-  checksum: 3c4e30d52dd88db45be54f615179a54d6ba33fdedd87caabca56e8609feaef6322739dc1e68d117bf06948a38666afc27b48128d06ce608bea004653ddfc0d69
+  checksum: 326bdedf9f54ad1a74e216c530409cfa455360221b973fabcb196e643af81aa026ccf8e7409fdc181bdbb5279362961c3cc5684a1cdc199b230731dc7b39e24c
   languageName: node
   linkType: hard
 
@@ -1302,7 +1302,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@radix-ui/react-alert-dialog@npm:^1.1.11":
+"@radix-ui/react-alert-dialog@npm:^1.1.13":
   version: 1.1.13
   resolution: "@radix-ui/react-alert-dialog@npm:1.1.13"
   dependencies:
@@ -1405,7 +1405,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@radix-ui/react-avatar@npm:^1.1.7":
+"@radix-ui/react-avatar@npm:^1.1.9":
   version: 1.1.9
   resolution: "@radix-ui/react-avatar@npm:1.1.9"
   dependencies:
@@ -1626,7 +1626,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@radix-ui/react-dialog@npm:1.1.13, @radix-ui/react-dialog@npm:^1.1.11":
+"@radix-ui/react-dialog@npm:1.1.13, @radix-ui/react-dialog@npm:^1.1.13":
   version: 1.1.13
   resolution: "@radix-ui/react-dialog@npm:1.1.13"
   dependencies:
@@ -1787,7 +1787,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@radix-ui/react-dropdown-menu@npm:^2.1.12":
+"@radix-ui/react-dropdown-menu@npm:^2.1.14":
   version: 2.1.14
   resolution: "@radix-ui/react-dropdown-menu@npm:2.1.14"
   dependencies:
@@ -1980,7 +1980,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@radix-ui/react-label@npm:^2.1.4":
+"@radix-ui/react-label@npm:^2.1.6":
   version: 2.1.6
   resolution: "@radix-ui/react-label@npm:2.1.6"
   dependencies:
@@ -2569,7 +2569,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@radix-ui/react-slot@npm:1.2.2, @radix-ui/react-slot@npm:^1.2.0":
+"@radix-ui/react-slot@npm:1.2.2, @radix-ui/react-slot@npm:^1.2.2":
   version: 1.2.2
   resolution: "@radix-ui/react-slot@npm:1.2.2"
   dependencies:
@@ -2609,7 +2609,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@radix-ui/react-switch@npm:^1.2.2":
+"@radix-ui/react-switch@npm:^1.2.4":
   version: 1.2.4
   resolution: "@radix-ui/react-switch@npm:1.2.4"
   dependencies:
@@ -2660,7 +2660,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@radix-ui/react-tabs@npm:^1.1.9":
+"@radix-ui/react-tabs@npm:^1.1.11":
   version: 1.1.11
   resolution: "@radix-ui/react-tabs@npm:1.1.11"
   dependencies:
@@ -2817,7 +2817,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@radix-ui/react-tooltip@npm:^1.2.4":
+"@radix-ui/react-tooltip@npm:^1.2.6":
   version: 1.2.6
   resolution: "@radix-ui/react-tooltip@npm:1.2.6"
   dependencies:
@@ -4688,14 +4688,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@rollup/rollup-linux-x64-gnu@npm:4.40.1":
-  version: 4.40.1
-  resolution: "@rollup/rollup-linux-x64-gnu@npm:4.40.1"
-  conditions: os=linux & cpu=x64 & libc=glibc
-  languageName: node
-  linkType: hard
-
-"@rollup/rollup-linux-x64-gnu@npm:^4.40.1":
+"@rollup/rollup-linux-x64-gnu@npm:4.40.2, @rollup/rollup-linux-x64-gnu@npm:^4.40.1":
   version: 4.40.2
   resolution: "@rollup/rollup-linux-x64-gnu@npm:4.40.2"
   conditions: os=linux & cpu=x64 & libc=glibc
@@ -4773,8 +4766,8 @@ __metadata:
   linkType: hard
 
 "@tailwindcss/oxide-linux-x64-gnu@npm:^4.1.5":
-  version: 4.1.5
-  resolution: "@tailwindcss/oxide-linux-x64-gnu@npm:4.1.5"
+  version: 4.1.7
+  resolution: "@tailwindcss/oxide-linux-x64-gnu@npm:4.1.7"
   conditions: os=linux & cpu=x64 & libc=glibc
   languageName: node
   linkType: hard
@@ -7583,9 +7576,9 @@ __metadata:
   linkType: hard
 
 "http-cache-semantics@npm:^4.1.1":
-  version: 4.1.1
-  resolution: "http-cache-semantics@npm:4.1.1"
-  checksum: 83ac0bc60b17a3a36f9953e7be55e5c8f41acc61b22583060e8dedc9dd5e3607c823a88d0926f9150e571f90946835c7fe150732801010845c72cd8bbff1a236
+  version: 4.2.0
+  resolution: "http-cache-semantics@npm:4.2.0"
+  checksum: 7a7246ddfce629f96832791176fd643589d954e6f3b49548dadb4290451961237fab8fcea41cd2008fe819d95b41c1e8b97f47d088afc0a1c81705287b4ddbcc
   languageName: node
   linkType: hard
 
@@ -7609,17 +7602,17 @@ __metadata:
   languageName: node
   linkType: hard
 
-"i18next@npm:^25.0.2":
-  version: 25.1.1
-  resolution: "i18next@npm:25.1.1"
+"i18next@npm:^25.1.2":
+  version: 25.1.3
+  resolution: "i18next@npm:25.1.3"
   dependencies:
-    "@babel/runtime": ^7.26.10
+    "@babel/runtime": ^7.27.1
   peerDependencies:
     typescript: ^5
   peerDependenciesMeta:
     typescript:
       optional: true
-  checksum: 1f1ca5d1d8c737cc960ca9411161fc80a81be56f003fd7ab60de71072bf493fda4fc8602c5d4ba7992489c4088b870cfb6680a811bc2e5d0dc90afebd6f6a948
+  checksum: bd980270f4e27f3814643fcdeb50926faee3a79f920101a8b1fbbe9a1a6ae5164be8a6e3c830ea036bd2f823202548c451cf9112170e8d73b0deccf2048a35f1
   languageName: node
   linkType: hard
 
@@ -8215,8 +8208,8 @@ __metadata:
   linkType: hard
 
 "lightningcss-linux-x64-gnu@npm:^1.29.3":
-  version: 1.29.3
-  resolution: "lightningcss-linux-x64-gnu@npm:1.29.3"
+  version: 1.30.1
+  resolution: "lightningcss-linux-x64-gnu@npm:1.30.1"
   conditions: os=linux & cpu=x64 & libc=glibc
   languageName: node
   linkType: hard
@@ -8235,20 +8228,20 @@ __metadata:
   languageName: node
   linkType: hard
 
-"linkify-react@npm:^4.2.0":
-  version: 4.3.0
-  resolution: "linkify-react@npm:4.3.0"
+"linkify-react@npm:^4.3.1":
+  version: 4.3.1
+  resolution: "linkify-react@npm:4.3.1"
   peerDependencies:
     linkifyjs: ^4.0.0
     react: ">= 15.0.0"
-  checksum: a80832da6daf78c47f6b2d68295d5c9f1fb6f10c8ca7666ba7899ebca385512576e3a4462593e052bdea17ecb0be77da2d47b8471109c54c790fba467b0a4b9a
+  checksum: f78688e656dd8bb318b98445087b5447378405f481f85b49c08f513aad2b4c07b68f484a283c9599b83143cff05e42d231b1239565a8bccc3d013dfaa285cfbd
   languageName: node
   linkType: hard
 
-"linkifyjs@npm:^4.2.0":
-  version: 4.3.0
-  resolution: "linkifyjs@npm:4.3.0"
-  checksum: 33006a0f11d23d4568fa0527abe981188ff81f29b38e19587366b90b6796d7dc315d342d06a475c5943a635f9dcfcdfbdc3a6f6b2cfcd9a975c58e1b181efa1f
+"linkifyjs@npm:^4.3.1":
+  version: 4.3.1
+  resolution: "linkifyjs@npm:4.3.1"
+  checksum: dbe83b9428f9b2abef4b8a5c457a49e4b36f1bcb5386ac44f8a595adbdaf8b1266d3c8dce0a4e0cb3dc9a096a64fee16a9374fe81efc0cbc46488901a89d0d41
   languageName: node
   linkType: hard
 
@@ -8334,12 +8327,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"lucide-react@npm:^0.503.0":
-  version: 0.503.0
-  resolution: "lucide-react@npm:0.503.0"
+"lucide-react@npm:^0.506.0":
+  version: 0.506.0
+  resolution: "lucide-react@npm:0.506.0"
   peerDependencies:
     react: ^16.5.1 || ^17.0.0 || ^18.0.0 || ^19.0.0
-  checksum: ff55ef2c62d4002fec95e5fbe0b83ff830300639473bd228165061c64c107f0867c9815e479c1e71751d7b2dd2aa9aff4830b9da9e2c5a6361e1331f4de2c9c6
+  checksum: 76f1e80d3d412688bd288ad53f59fd9924a3fc0776436aff23a0612099d73d4cbc0ee7ee34a3eac49acb55e2b05a4038e2accf1686ec922a4658120dc8c94c0c
   languageName: node
   linkType: hard
 
@@ -8383,7 +8376,7 @@ __metadata:
   resolution: "medusa-next@workspace:."
   dependencies:
     "@babel/core": ^7.17.5
-    "@connectycube/chat-widget": ^0.25.0
+    "@connectycube/chat-widget": ^0.26.0
     "@headlessui/react": ^2.2.0
     "@medusajs/js-sdk": latest
     "@medusajs/types": latest
@@ -9595,12 +9588,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"react-hook-form@npm:^7.56.1":
-  version: 7.56.2
-  resolution: "react-hook-form@npm:7.56.2"
+"react-hook-form@npm:^7.56.3":
+  version: 7.56.3
+  resolution: "react-hook-form@npm:7.56.3"
   peerDependencies:
     react: ^16.8.0 || ^17 || ^18 || ^19
-  checksum: e0b400f8de6b400ccb291990740e92cf0a64aecc5a926d0bb7e21a08e343a33ed663cc44066b09968931daa9bcda27b9b97c7849eb92165580eb419916bc6145
+  checksum: 5b5ebf1b61754a5c2e5785a6f3039eac89028d0613e9f7da23c132129e9685c166077b338db05430292d16b9532a21ebd2abd8785de497c54cb70fbccf774572
   languageName: node
   linkType: hard
 
@@ -10058,7 +10051,16 @@ __metadata:
   languageName: node
   linkType: hard
 
-"semver@npm:^7.3.5, semver@npm:^7.6.0, semver@npm:^7.7.1":
+"semver@npm:^7.3.5":
+  version: 7.7.2
+  resolution: "semver@npm:7.7.2"
+  bin:
+    semver: bin/semver.js
+  checksum: dd94ba8f1cbc903d8eeb4dd8bf19f46b3deb14262b6717d0de3c804b594058ae785ef2e4b46c5c3b58733c99c83339068203002f9e37cfe44f7e2cc5e3d2f621
+  languageName: node
+  linkType: hard
+
+"semver@npm:^7.6.0, semver@npm:^7.7.1":
   version: 7.7.1
   resolution: "semver@npm:7.7.1"
   bin:
@@ -11389,7 +11391,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"zustand@npm:^5.0.3":
+"zustand@npm:^5.0.4":
   version: 5.0.4
   resolution: "zustand@npm:5.0.4"
   peerDependencies:
