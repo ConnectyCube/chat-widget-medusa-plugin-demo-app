@@ -12,24 +12,48 @@ A demo Medusa 2.0 app with [@connectycube/chat-widget-medusa-plugin](https://git
 3. Run core medusa app
 
   ```
-  cp core-app
+  cd core-app
   yarn
+
   cp .env.template .env
   # set VITE_CHAT_APP_ID and VITE_CHAT_AUTH_KEY envs in .env file
   npx medusa db:setup --db medusa-chat-widget-plugin
   npx medusa db:migrate
+
+  # create test user
+  npx medusa user --email user@test.com --password testtest
+
   yarn dev
   ```
+
+  Now open http://localhost:9000/app and login with your test user. Navigate to `Extensions -> Chat` to open a chat page:
+
+  <img width="800" alt="Screenshot 2025-05-08 at 12 49 18" src="https://github.com/user-attachments/assets/9b9bb61e-7ca2-447a-8ccc-fb8cf92933f2" />
+
+  For a storefront to configure you will need your Store Id and Store name. You can access them via Developers Tools, Network tab:
+
+<img width="1512" alt="Screenshot 2025-05-08 at 12 33 02" src="https://github.com/user-attachments/assets/abe629a9-20ca-475b-9358-c403f9558514" />
+
+4. Create test data in Dashboard:
+
+   - create Publishable API Key on `Settings -> Publishable API Keys` page and attach Default Sales Channel to it
+   - create region on `Settings -> Regions` page
+   - create some products
 
 4. Run storefront
 
   ```
-  cp storefront
-  yarn # or corepack yarn
+  cd storefront
+  yarn
+
   cp .env.template .env.local
-  # set NEXT_PUBLIC_CHAT_APP_ID, NEXT_PUBLIC_CHAT_AUTH_KEY, NEXT_PUBLIC_STORE_ID, NEXT_PUBLIC_STORE_NAME envs
+  # Set NEXT_PUBLIC_CHAT_APP_ID, NEXT_PUBLIC_CHAT_AUTH_KEY, NEXT_PUBLIC_STORE_ID, NEXT_PUBLIC_STORE_NAME envs.
+  # Also, specify valid NEXT_PUBLIC_MEDUSA_PUBLISHABLE_KEY which you can get in Medusa Dashboard -> Settings -> Publishable API Keys
+
   yarn dev # or corepack yarn dev
   ```
+
+  Now open http://localhost:8000, sign in, go to Stores page, select some product and open a Widget
 
 ## How can I use it?
 
