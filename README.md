@@ -8,6 +8,8 @@ A demo Medusa 2.0 app with [@connectycube/chat-widget-medusa-plugin](https://git
 
 <img width="800" alt="Screenshot 2025-05-07 at 15 19 59" src="https://github.com/user-attachments/assets/77995af3-eb65-4559-8939-e3cc36104862" />
 
+and fill it in `core-app/.env` and `storefront/.env` (use `.env.template` files as for the basis)
+
 Also, go to **Chat -> Custom Fields** and create a new custom field called `externalId`:
 
 <img width="1512" alt="Screenshot 2025-07-02 at 12 24 35" src="https://github.com/user-attachments/assets/cf2182e5-7080-4a59-9973-d9c3697bebda" />
