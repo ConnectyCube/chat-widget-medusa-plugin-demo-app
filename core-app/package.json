@@ -22,7 +22,7 @@
     "test:unit": "TEST_TYPE=unit NODE_OPTIONS=--experimental-vm-modules jest --silent --runInBand --forceExit"
   },
   "dependencies": {
-    "@connectycube/chat-widget-medusa-plugin": "^0.14.0",
+    "@connectycube/chat-widget-medusa-plugin": "^0.14.3",
     "@medusajs/admin-sdk": "2.7.1",
     "@medusajs/cli": "2.7.1",
     "@medusajs/framework": "2.7.1",
